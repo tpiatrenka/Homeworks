@@ -1,6 +1,6 @@
 package hw_2.taks_4;
 
-//+
+//+ Опечатка в названии пакета
 public class Main {
     //Составьте программу, вычисляющую A*B, не пользуясь операцией умножения.
     public static void main(String[] args) {
