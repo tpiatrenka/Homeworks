@@ -1,5 +1,6 @@
 package hw_2.task_1;
 
+//+
 public class Main {
     public static void main(String[] args) {
         //  Начав тренировки, спортсмен в первый день пробежал 10 км. Каждый
