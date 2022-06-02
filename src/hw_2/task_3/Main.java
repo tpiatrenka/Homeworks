@@ -1,5 +1,6 @@
 package hw_2.task_3;
 
+//+
 public class Main {
    // Вычислить: 1+2+4+8+...+256
     public static void main(String[] args) {
