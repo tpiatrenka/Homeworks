@@ -1,5 +1,6 @@
 package hw_2.task_9;
 
+//+
 public class Main {
     /* Нарисуйте оставшиеся 2 треугольника
         *  (1)
