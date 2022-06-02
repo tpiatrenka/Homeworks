@@ -1,5 +1,6 @@
 package hw_2.task_7;
 
+//+
 public class Main {
     //Напишите программу, определяющую сумму всех нечетных чисел от 1 до 99
     public static void main(String[] args) {
