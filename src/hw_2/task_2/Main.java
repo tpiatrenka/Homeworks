@@ -1,5 +1,6 @@
 package hw_2.task_2;
 
+//+ Немного поехали комментарии
 public class Main {
     public static void main(String[] args) {
       //  Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
