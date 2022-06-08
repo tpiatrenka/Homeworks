@@ -1,5 +1,6 @@
 package hw_3.task_5;
 
+//+
 public class Main {
     //Есть массив чисел, нужно инвертировать его порядок, т.е. массив [0,1,2,3,4] -> [4,3,2,1,0]
     public static void main(String[] args) {
