@@ -1,5 +1,6 @@
 package hw_3.task_3;
 
+//+ Код не отформатирован
 public class Main {
     //Есть массив чисел. Заменить каждый нечетный элемент массива на 0.
     public static void main(String[] args) {
@@ -11,6 +12,6 @@ public class Main {
 
             System.out.println(myArray[i]);
         }
-
+//лишняя пустая строчка
     }
 }
