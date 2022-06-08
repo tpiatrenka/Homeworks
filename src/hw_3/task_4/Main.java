@@ -1,5 +1,6 @@
 package hw_3.task_4;
 
+//+
 public class Main {
     //При помощи двумерного массива вывести на экран таблицу умножения
     public static void main(String[] args) {
