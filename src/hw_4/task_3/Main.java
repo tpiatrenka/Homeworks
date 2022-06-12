@@ -6,9 +6,10 @@ import hw_4.task_1.Person;
 import java.lang.reflect.Array;
 import java.util.Set;
 
+//+ Отличный вариант 
 public class Main {
     public static void main(String[] args) {
-        int sum = 0;
+        int sum = 0; //можно перенести ближе к использованию, даже в if и инициализировать единицей
         Person[] personList = new Person[10];
         personList[0] = new Person("Kate",25);
         personList[1] = new Person("Kate",25);
@@ -30,7 +31,7 @@ public class Main {
                     sum += 1;
                     excludes[j] = true;
                 }
-
+//Лишняя пустая строка 
             }
             if (sum > 1) {
                 System.out.println(personList[i].show() + " is repeated " + sum + " times");
