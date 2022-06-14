@@ -2,6 +2,7 @@ package hw_5.task_2;
 
 import java.util.Arrays;
 
+//+
 public class Warehouse {
     private int index = 0;
     private int[] myInt;
@@ -15,6 +16,8 @@ public class Warehouse {
         }
         return myInt[index++];
     }
+    
+    //только следует убрать этот метод (смотри комментарий в Main)
     public int[] getArray(){
         return myInt;
     }
