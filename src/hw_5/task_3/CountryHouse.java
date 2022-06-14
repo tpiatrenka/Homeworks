@@ -1,7 +1,8 @@
 package hw_5.task_3;
 
+//+-
 public class CountryHouse implements TypesOfBlocksAndHouses{
-
+    //поля класса должны быть private
     int numberOfFloors;
     boolean turnedOnHeating = false;
     int numberOfResidents;
