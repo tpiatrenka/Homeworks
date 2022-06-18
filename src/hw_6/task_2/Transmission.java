@@ -9,10 +9,10 @@ public class Transmission {
     }
     public void addSpeedLevel(){
         if(speedLevel > 7){ return;}
-        speedLevel++;
+        speedLevel++; //передача может стать 8
     }
     public void reduceSpeedLevel(){
         if(speedLevel < 0) {return;}
-        speedLevel--;
+        speedLevel--; //передача может стать -1
     }
 }
