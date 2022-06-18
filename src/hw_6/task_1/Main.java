@@ -1,4 +1,5 @@
 package hw_6.task_1;
+//+
 //Написать рекурсивную функцию, которая бы перебирала все элементы массива и выводила их на экран
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class Main {
     }
 
     public static void recursion(Integer[] array, Integer index){
-        if(index >= array.length){ return; }
+        if(index >= array.length){ return; } //тело цикла лучше начинать с новой строки 
         System.out.println(array[index]);
         recursion(array, index + 1);
     }
