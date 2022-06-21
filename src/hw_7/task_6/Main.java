@@ -3,6 +3,7 @@ package hw_7.task_6;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 
+//+ Только комментарии съехали трохи
 //Написать benchmark тест, который бы измерял скорость работы String, StringBuilder и StringBuffer.
 //Вывести на экран результаты замеров при помощи LocalDateTime. Данные должны отображаться в формате часы:минуты:секунды
 public class Main {
@@ -12,7 +13,7 @@ public class Main {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         long startTime = System.currentTimeMillis();
 
-        for (int i = 0; i < 400_000; i++) {
+        for (int i = 0; i < 400_000; i++) { //я на лекции не добавила, но лучше 400_000 закинуть в переменную
             string += "A";
         }
         long endTime = System.currentTimeMillis();
@@ -23,7 +24,7 @@ public class Main {
                         .toLocalDateTime();
 
         System.out.println("String " + dateTimeFormatter.format(date));
-//StringBuilder
+//StringBuilder 
         startTime = System.currentTimeMillis();
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < 400_000; i++) {
