@@ -3,6 +3,7 @@ package hw_7.task_4;
 import java.util.Arrays;
 import java.util.Locale;
 
+//+
 //Есть текст:
 //“While major gameplay components are already in place and functioning,
 //players help is needed to add some of the smaller features and content.
