@@ -1,5 +1,6 @@
 package hw_8.task_4;
 
+//+- Очень стабильная машинка :D
 public class WashingMachine {
     private boolean waterPresent = false;
 
