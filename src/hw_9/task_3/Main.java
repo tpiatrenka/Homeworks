@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 //Прочитать файл из Task_2 и вывести на экран содержимое
+//+, но мого пустых ненужных строчек. И тут тоже можно использовать BufferedStream
 public class Main {
     public static void main(String[] args) {
         try (FileInputStream fin = new FileInputStream("src/hw_9/task_2/strings1000.txt")) {
