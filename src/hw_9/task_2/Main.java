@@ -4,6 +4,7 @@ package hw_9.task_2;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//+, только сначала надо было сгенерировтаь текст (string.repeat), потом воспользоваться BufferedFileOutputStream
 public class Main {
     public static void main(String[] args) {
         String text = "Hello world!";
