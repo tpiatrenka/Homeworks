@@ -2,6 +2,7 @@ package hw_9.task_4;
 
 import java.io.Serializable;
 
+//+- при Serializable хорошая привычка добавлять serialVersionUID
 public class Employee implements Serializable {
     private String name;
     private int age;
