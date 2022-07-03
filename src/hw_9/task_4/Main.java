@@ -11,7 +11,7 @@ public class Main {
         String path = "src/hw_9/task_4/employee.txt";
         Employee kris = new Employee("Kris", 29, new Work("Manager", 4));
         writeEmployee(kris, path);
-        Employee person = (Employee) readEmployee(path);
+        Employee person = (Employee) readEmployee(path); //класс каст уже делается внутри метода
         System.out.println(person);
     }
 
@@ -27,10 +27,10 @@ public class Main {
 
     private static Employee readEmployee(String path) {
         try (FileInputStream fis = new FileInputStream(path)) {
-            ObjectInputStream ois = new ObjectInputStream(fis);
+            ObjectInputStream ois = new ObjectInputStream(fis); //можно тоже закинуть в трай с ресурами
             Object obj = ois.readObject();
             System.out.println("The object has been read from the file");
-            ois.close();
+            ois.close();//в finally или в трай с ресурсами 
             return (Employee) obj;
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
