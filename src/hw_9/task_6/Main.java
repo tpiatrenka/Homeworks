@@ -2,6 +2,7 @@ package hw_9.task_6;
 
 import java.io.*;
 
+//+
 //Секретный файл. Скачайте любую картинку и запишите в нее секретное сообщение, не забудьте поставить append flag в значение true.
 //Затем это сообщение нужно прочитать из файла и вывести на экран
 public class Main {
@@ -12,7 +13,7 @@ public class Main {
     }
 
     static void appendToFile(String filePath, String content) throws IOException {
-        FileWriter fw = new FileWriter(filePath, true);
+        FileWriter fw = new FileWriter(filePath, true); //обчыно его используют для текста, но так тоже можно
         fw.write(content);
     }
 
