@@ -2,6 +2,7 @@ package hw_9.task_5;
 
 import java.io.Serializable;
 
+//+
 public class Employee implements Serializable {
     private static final long serialVersionUID = 4679761422560298695L;
     public String name;
