@@ -2,6 +2,7 @@ package hw_9.task_5;
 
 import java.io.Serializable;
 
+//+ (serialVersionUID)
 public class Work implements Serializable {
     private String name;
     private int experience;
