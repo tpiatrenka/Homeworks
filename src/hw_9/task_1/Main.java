@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+//+-
 public class Main {
     public static void main(String[] args) {
 
@@ -14,7 +15,7 @@ public class Main {
             FileOutputStream fos = new FileOutputStream("src/hw_9/task_1/numbers.txt");
             for (int i = 0; i < numbers.length; i++)
                 fos.write(numbers[i]);
-            fos.close();
+            fos.close(); //close делаем в файнали с проверкой на fos != null или используем трай с ресурсами
         } catch (IOException e) {
             System.out.println("Error - " + e.toString());
         }
