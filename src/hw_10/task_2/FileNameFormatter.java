@@ -7,6 +7,7 @@ import java.nio.file.Files;
 
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
+//+
 //Есть папка с файлами, которые нужно переименовать.
 //Реализуйте паттерн "стратегия" при помощи Enum для переименования файлов:
 //- имя файла маленькими буквами
