@@ -1,5 +1,7 @@
 package hw_10.task_2;
 
+// +
+// да, можно через интерфейс заставить переопределить все методы. есть еще вариант добавить абстрактный метод в RenameStrategy
 public enum RenameStrategy implements Renamable {
     LOWERCASE {
         @Override
