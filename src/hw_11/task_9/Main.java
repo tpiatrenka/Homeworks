@@ -3,7 +3,7 @@ package hw_11.task_9;
 import java.util.Set;
 import java.util.TreeSet;
 
-//+
+//+- класс Student не имплементирует Comparable, а при создании TreeSet не передается компаратор. Этот код работает?..
 //Есть TreeSet<Student>. Заполните его списком студентов.
 // Если получили исключение, вспомните про интерфейс Comparable или Comparator
 public class Main {
