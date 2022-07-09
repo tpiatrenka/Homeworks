@@ -1,8 +1,9 @@
 package hw_11.task_10;
 
+//+ Только обычно с окончанием s утилитные классы (Objects, Arrays), так что лучше подойдёт Fruit или FruitBox, например 
 public class Fruits {
     private String name;
-    private Integer kg;
+    private Integer kg; //amount or weight
 
     public Fruits(String name, Integer kg) {
         this.name = name;
