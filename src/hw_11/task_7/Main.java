@@ -2,6 +2,7 @@ package hw_11.task_7;
 
 import java.util.TreeSet;
 
+//+
 // Есть TreeSet чисел, нужно отсортировать его в обратном порядке
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +14,6 @@ public class Main {
         treeSet.add(6);
         treeSet.add(5);
         System.out.println(treeSet.descendingSet());
-
+//Лишняя пустая строка 
     }
 }
