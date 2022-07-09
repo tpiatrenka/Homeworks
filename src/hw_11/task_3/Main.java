@@ -3,6 +3,7 @@ package hw_11.task_3;
 import java.util.ArrayList;
 import java.util.List;
 
+//+
 //Есть две коллекции, нужно удалить из первой те, которые есть во второй
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +22,6 @@ public class Main {
 
         firstIntegerList.removeAll(secondIntegerList);
         System.out.println(firstIntegerList);
-
+//Лишняя пустая строка 
     }
 }
