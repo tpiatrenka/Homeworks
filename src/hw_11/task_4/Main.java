@@ -3,6 +3,7 @@ package hw_11.task_4;
 import java.util.ArrayList;
 import java.util.List;
 
+//+
 //Есть две коллекции, нужно оставить в первой только те, которые есть во второй
 public class Main {
     public static void main(String[] args) {
