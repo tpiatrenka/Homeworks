@@ -3,6 +3,7 @@ package hw_11.task_9;
 import java.util.Set;
 import java.util.TreeSet;
 
+//+
 //Есть TreeSet<Student>. Заполните его списком студентов.
 // Если получили исключение, вспомните про интерфейс Comparable или Comparator
 public class Main {
@@ -19,7 +20,7 @@ public class Main {
         students.add(student3);
         students.add(student4);
         students.add(student5);
-
+//Лишние пустые строчки
 
     }
 }
