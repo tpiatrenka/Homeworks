@@ -2,6 +2,7 @@ package hw_13.task_5;
 
 import java.util.List;
 
+//+
 //Есть коллекция чисел, найти произведение первых 5ти элементов.
 public class Main {
     public static void main(String[] args) {
