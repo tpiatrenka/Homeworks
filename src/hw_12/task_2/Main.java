@@ -2,10 +2,12 @@ package hw_12.task_2;
 
 import java.util.function.Function;
 
+//+
 //Написать функцию перевода числа в строку с добавлением денежной единицы. Например, 5 -> 5 рублей.
 public class Main {
     public static void main(String[] args) {
         Function<Integer, String> moneyFormatter = value -> {
+            //Может быть вынесено в отдельный метод
             if (value % 10 == 1 && value != 11) {
                 return value + " рубль";
             } else if (value % 10 == 2 && value != 12) {
