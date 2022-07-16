@@ -2,6 +2,7 @@ package hw_13.task_3;
 
 import java.util.Objects;
 
+//+ (можно вынести в пакет entity)
 public class Phone {
     private String company;
     private String model;
