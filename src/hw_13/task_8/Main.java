@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+//+
 //Есть коллекция телефонов, нужно сгруппировать по компании и вывести на экран
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +23,6 @@ public class Main {
             System.out.println(v);
             System.out.println();
         });
-
+//лишняя пустая строка
     }
 }
