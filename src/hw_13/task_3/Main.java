@@ -3,6 +3,7 @@ package hw_13.task_3;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//+
 //Есть коллекция телефонов. Необходимо получить из нее коллекцию производителей (производитель - это строка) и оставить только те, которые входят в список:
 // Apple, Samsung, Xiaomi
 public class Main {
