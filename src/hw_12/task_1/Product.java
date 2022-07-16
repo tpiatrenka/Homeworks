@@ -5,10 +5,13 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+//+- Попробуй заменить Date (устаревший тип) на LocalDateTime и использовать форматирование даты в строку в методе toString()
 public class Product {
+    //может быть типа LocalDateTime
     private  Date date;
 
     public Product(String dateString) {
+        //в конструкторе не должно быть логики
         this.date = fromString(dateString);
     }
 
@@ -16,6 +19,7 @@ public class Product {
 
         Date result = null;
         try{
+            //не нужно каждый раз создавать форматтер - он может быть константой
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             result  = dateFormat.parse(s);
         }
