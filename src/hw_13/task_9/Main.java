@@ -5,6 +5,7 @@ import hw_13.task_3.Phone;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//+ Вариант. Но можешь еще почитать https://stackoverflow.com/questions/19940319/can-you-split-a-stream-into-two-streams
 //Есть коллекция телефонов. Нужно разделить на две части, в одной только айфоны, в другой остальные производители.
 public class Main {
     public static void main(String[] args) {
